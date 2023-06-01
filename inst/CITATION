@@ -1,0 +1,15 @@
+bibentry(
+  bibtype = "Article",
+  title = "{RGAP}: Output gap estimation in {R}",
+  author = person(given = "Sina", 
+                  family = "Streicher", 
+                  email = "streicher@kof.ethz.ch"),
+  journal = "{KOF} Working Papers",
+  number  = "503",
+  year = "2022",
+  textVersion =   paste("Sina Streicher (2022).",
+        "RGAP: Output gap estimation in R.",
+        "KOF Working Paper 503."),
+  
+  header = "To cite RGAP in publications use:"
+)
