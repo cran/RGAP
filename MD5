@@ -1,15 +1,15 @@
-2a6c86d1a1890e872630067217e560db *DESCRIPTION
+b8d15e3a281792ba1d591e46c920aba2 *DESCRIPTION
 ea5f770b480eecc94c71df693c88b3d2 *NAMESPACE
 fec6d545a36cf0a500310903bb235c4d *R/checks.R
 8612e578bc8933d611df0f09f185d12f *R/constraints.R
 8d6f177ee89f4555788004589c1f8c9a *R/cubs.R
 6aa1333de827a06f26482dc19f9e3547 *R/data_documentation.R
-400391ae17a9d62fb9c88c7b1b58ea77 *R/data_input.R
+e246ff6301a202968dabbbedb23ea3eb *R/data_input.R
 6a7a3c3cfedd601acf1ed00df5fcd967 *R/gap.R
-5cbd4f0cbb28552fe9d66af640bdd4bd *R/gibbs_steps.R
+7c0ce9ab4b39ccec73e3f7502dbae4c4 *R/gibbs_steps.R
 933a38c589ddfe37f0a711cfdf6bff5d *R/kuttner.R
 f3a3d16fb84eae74b05d0439a1e57aba *R/kuttner_mle.R
-0fd76644590e6558c084df731a6a9307 *R/model_selection.R
+a79b9a2f771880ab6c5029b21aed9287 *R/model_selection.R
 c610338776501bd75c0ccaa06a423ea1 *R/nawru.R
 07098ba20cbef381a1559ac0a71999c0 *R/nawru_bayesian.R
 6677416cbeee64a07716dc1082ec8ff3 *R/nawru_mle.R
@@ -40,7 +40,7 @@ d98733130b9930e986c850fbc0d6a890 *man/Dconstraint.Rd
 69e5390b0b75b1c052938655340c7e36 *man/TFPmodel.Rd
 638227dc899b7e815bb997558869d190 *man/amecoData2input.Rd
 0530beef51b9a4ea432585b136d2ca7d *man/assignConstraints.Rd
-0832a8e6654c6a7a76353fb273c8c484 *man/autoGapProd.Rd
+bdce379129f0d07ddd0f975537bda972 *man/autoGapProd.Rd
 77227992fcc9aaefe4da477a2ba87eb2 *man/autoNAWRUmodel.Rd
 2bdaceda99c4f55149ad1ed35557e3f2 *man/autoTFPmodel.Rd
 c416179533442530014332aa75588935 *man/computeCovar.Rd
@@ -80,7 +80,7 @@ b4ace838569a11b7405fb48880e62f99 *man/dot-cubsTa.Rd
 64ff0913ab42861a548f7518d34a1b89 *man/dot-getXYpcInd.Rd
 0ad8878faf8b0fb04edd283a452108d5 *man/dot-gibbsStep2Eq.Rd
 155fde7be84b72961499f2e21c427be0 *man/dot-gibbsStepAR.Rd
-3e2d3b882b4d1e9b73b34dad4135c010 *man/dot-gibbsStepDT.Rd
+38e7f6b5f31d39d9aa2f4a73e1e2fb46 *man/dot-gibbsStepDT.Rd
 ed09d443a3dad5d0d4d75b2e5aee8f89 *man/dot-gibbsStepRAR2.Rd
 1517d4987db88c96cfaa352aadc41416 *man/dot-initializeLoc.Rd
 d307b6c47655832033e9124bbdbf0f7e *man/dot-initializeVar.Rd
@@ -131,7 +131,7 @@ af78cf4ed1046245e5ac995c77ba9bfa *man/is.TFPmodel.Rd
 0388d82da3978913afeae134a51ff2db *man/is.gap.Rd
 6dceface48a6d38deed3c64c883fb36a *man/matmult3d.Rd
 6cf47bcfede452753e411a678090ad1d *man/mcmcSummary.Rd
-21d8f523b726b64da9fe12fa8bd2274d *man/obs2Optim.Rd
+e4ee69ef50f4e03b564a0ec21abbd188 *man/obs2Optim.Rd
 f5dc035a52af01c82f696092c4a1c438 *man/operTsLists.Rd
 062fa8058b71eb5c933fef3cb41331e3 *man/plot.KuttnerFit.Rd
 1b92ab5f9fa5558d1ce36c7d18dd6416 *man/plot.NAWRUfit.Rd

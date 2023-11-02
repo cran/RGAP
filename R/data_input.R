@@ -96,14 +96,14 @@ fetchAmecoData <- function(country = NULL, cubs = TRUE) {
   # indicators for cubs ----------------------------------------------
 
   # main indicators
-  file_url <- "https://ec.europa.eu/economy_finance/db_indicators/surveys/documents/series/nace2_ecfin_2010/main_indicators_sa_nace2.zip"
+  file_url <- "https://ec.europa.eu/economy_finance/db_indicators/surveys/documents/series/nace2_ecfin_2310/main_indicators_sa_nace2.zip"
   file_path <- file.path(folder, paste0("ameco_", Sys.Date(), ".zip"))
   # download and unzip
   download.file(url = file_url, destfile = file_path)
   unzip(zipfile = file_path, exdir = folder)
 
   # industry total
-  file_url <- "https://ec.europa.eu/economy_finance/db_indicators/surveys/documents/series/nace2_ecfin_2010/industry_total_sa_nace2.zip"
+  file_url <- "https://ec.europa.eu/economy_finance/db_indicators/surveys/documents/series/nace2_ecfin_2310/industry_total_sa_nace2.zip"
   file_path <- file.path(folder, paste0("ameco_", Sys.Date(), ".zip"))
   # download and unzip
   download.file(url = file_url, destfile = file_path)

@@ -14,7 +14,7 @@ the states.}
 
 \item{distr}{A \code{4 x 3} matrix with prior parameters and box constraints.}
 
-\item{varName}{A code{3 x 1} vector with parameter names in the correct order, i.e.,
+\item{varName}{A \code{3 x 1} vector with parameter names in the correct order, i.e.,
 mean reversion, autoregressive parameter, variance.}
 }
 \description{

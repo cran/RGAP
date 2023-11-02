@@ -23,7 +23,6 @@
 #' @param nModels Integer, the maximum number of models for each unobserved component model.
 #' @param nawruPoss List with possible model specifications for the NAWRU, see details.
 #' @param tfpPoss List with possible model specifications for the NAWRU, see details.
-#' @param BIC Bayesian information criterion of chosen model.
 #' @param auto If \code{auto = "NAWRU"} or \code{auto = "TFP"}, the function only 
 #'   finds the most suitable NAWRU or TFP model, respectively. The default is 
 #'   \code{auto = "gap"}.
@@ -110,28 +109,28 @@
 #' 
 #' @export
 autoGapProd <- function(tsl, 
-                         type = "hp",
-                         q = 0.01,
-                         method = "MLE",
-                         criterion = "BIC",
-                         fast = TRUE,
-                         nModels = 5,
-                         nawruPoss = list(maxCycleLag = 2,
-                                          trend = c("RW2", "DT"),
-                                          cycle = c("AR1", "AR2"),
-                                          errorARmax = 1,
-                                          errorMAmax = 0,
-                                          type = c("TKP", "NKP"),
-                                          exoNames = c("ws", "prod", "tot"),
-                                          signalToNoise = NULL),
-                         tfpPoss = list(maxCycleLag = 2,
+                        type = "hp",
+                        q = 0.01,
+                        method = "MLE",
+                        criterion = "BIC",
+                        fast = TRUE,
+                        nModels = 5,
+                        nawruPoss = list(maxCycleLag = 2,
                                         trend = c("RW2", "DT"),
-                                        cycle = c("AR1", "AR2", "RAR2"),
-                                        cubsARmax = 0,
+                                        cycle = c("AR1", "AR2"),
                                         errorARmax = 1,
                                         errorMAmax = 0,
+                                        type = c("TKP", "NKP"),
+                                        exoNames = c("ws", "prod", "tot"),
                                         signalToNoise = NULL),
-                         auto = "gap") {
+                        tfpPoss = list(maxCycleLag = 2,
+                                      trend = c("RW2", "DT"),
+                                      cycle = c("AR1", "AR2", "RAR2"),
+                                      cubsARmax = 0,
+                                      errorARmax = 1,
+                                      errorMAmax = 0,
+                                      signalToNoise = NULL),
+                        auto = "gap") {
   
   
   nawruPossBase <- list(maxCycleLag = 5,
@@ -902,7 +901,6 @@ cycleOptim <- function(x, opt = c("AR1", "AR2", "RAR2")) {
 #'   equation.
 #' @param maxAR Integer, maximal AR order of the time series \code{x2} in the 2nd observation 
 #'   equation. \code{0} means that no lag is included.
-#' @param BIC Bayesian information criterion of chosen model.
 #' @param nModels Integer, maximum number of models chosen to be fitted.
 #'   
 #' @return A list containing the chosen parameters: \code{errorAR, errorMA, cycleLag, ar, exo}.

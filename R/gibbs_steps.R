@@ -374,7 +374,7 @@ FUNcov <- function(Xcubs, Xc, Y, mu, phi, beta, sigma, phiC, sigmaC) {
 #' @param Y A \code{Tn x 1} vector.
 #' @param par A \code{3 x 1} vector with parameters.
 #' @param distr A \code{4 x 3} matrix with prior parameters and box constraints.
-#' @param varName A code{3 x 1} vector with parameter names in the correct order, i.e.,
+#' @param varName A \code{3 x 1} vector with parameter names in the correct order, i.e.,
 #'   mean reversion, autoregressive parameter, variance.
 #'
 #' @details The three parameters are drawn sequentially in a Gibbs procedure. (conditional

@@ -33,8 +33,6 @@ equation.}
 equation. \code{0} means that no lag is included.}
 
 \item{nModels}{Integer, maximum number of models chosen to be fitted.}
-
-\item{BIC}{Bayesian information criterion of chosen model.}
 }
 \value{
 A list containing the chosen parameters: \code{errorAR, errorMA, cycleLag, ar, exo}.

@@ -50,8 +50,6 @@ and  \code{criterion = "RMSE"}, the mean RMSE is used.}
 \item{auto}{If \code{auto = "NAWRU"} or \code{auto = "TFP"}, the function only 
 finds the most suitable NAWRU or TFP model, respectively. The default is 
 \code{auto = "gap"}.}
-
-\item{BIC}{Bayesian information criterion of chosen model.}
 }
 \value{
 A list containing three components: \code{gap} (the best model of class \code{"gap"}), 
